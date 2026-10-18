@@ -1,0 +1,37 @@
+📄 Tueste Norte – Semana 3
+Tema personalizado de WordPress desarrollado como práctica académica. Incluye plantillas completas (single, page, archive, 404), estilos propios y un plugin que añade una firma automática al final de cada entrada. El proyecto demuestra el uso de PHP, CSS y la jerarquía de plantillas de WordPress, junto con control de versiones mediante Git y GitHub.
+
+📂 Estructura del tema
+tueste-norte-semana3/
+│
+├── 404.php
+├── archive.php
+├── footer.php
+├── functions.php
+├── header.php
+├── index.php
+├── page.php
+├── single.php
+└── style.css
+🛠️ Funcionalidades
+Plantillas personalizadas para entradas, páginas y categorías.
+
+Página 404 con diseño propio.
+
+Estilos coherentes con la temática del café.
+
+Plugin que añade una firma automática al final de cada entrada.
+
+Tema completamente funcional y listo para usar en WordPress.
+
+🚀 Instalación
+Copiar la carpeta del tema en:
+wp-content/themes/tueste-norte-semana3
+
+Activar el tema desde el panel de WordPress.
+
+Activar el plugin de firma si se incluye en el proyecto.
+
+👤 Autor
+Vicente Ruiz  
+Práctica Semana 3 – Desarrollo de temas en WordPress.
