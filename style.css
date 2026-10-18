@@ -1,0 +1,101 @@
+/*
+Theme Name: Tueste Norte Semana 3
+Theme URI: http://localhost
+Author: Vicente Ruiz
+Description: Tema a medida para Tueste Norte, desarrollado en CodeNode.
+Version: 1.0.0
+*/
+
+/* Firma visual clara con icono de café */
+.tn-firma {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid #8B4513;
+    background: #f7f3ef;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #4a3b2a;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tn-firma::before {
+    content: "☕";
+    font-size: 1.4rem;
+    color: #8B4513;
+}
+
+/* Estructura general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #faf7f3;
+    color: #333;
+}
+
+/* Cabecera */
+.cabecera {
+    background: #8B4513;
+    padding: 1rem;
+    color: white;
+}
+
+.cabecera .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Menú */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contenido */
+.contenido {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Título de entrada */
+.titulo-entrada {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #4a3b2a;
+}
+
+/* Categorías */
+.meta-categorias {
+    font-size: 0.9rem;
+    color: #8B4513;
+    margin-bottom: 1rem;
+}
+
+/* Imagen destacada */
+.imagen-destacada img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+.pie {
+    background: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+
